@@ -1,0 +1,9 @@
+
+l
+java:S1128"ORemove this unused import 'org.springframework.cache.annotation.EnableCaching'.(ÍŠ³Ï8Î»ŒêÅ1
+s
+java:S1128"QRemove this unused import 'org.springframework.context.annotation.ComponentScan'.(æëòÒûÿÿÿÿ8Î»ŒêÅ1
+t
+java:S1128"WRemove this unused import 'org.springframework.scheduling.annotation.EnableScheduling'.(‹æ¬‹8Ï»ŒêÅ1
+€
+java:S1128"cRemove this unused import 'org.springframework.transaction.annotation.EnableTransactionManagement'.(ž‘Ó¼8Ï»ŒêÅ1
