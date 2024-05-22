@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zanewnch.webmanagement.mapper.EmployeeMapper">
+    <insert id="insertDataEmployee" parameterType="org.zanewnch.Employee">
+        insert into employees(name,number,age,gender,createTime,updateTime) values (#{name},#{number},#{age},#{gender},#{createTime},#{updateTime})
+    </insert>
+
+    <select id="selectEmployees" resultType="org.zanewnch.Employee">
+
+        select * from employees
+        <where>
+            <if test="id != null">
+                id = #{id}
+            </if>
+            <if test="name != null">
+                and name like concat('%', #{name}, '%')
+            </if>
+            <if test="number !=null">
+                and number = #{number}
+            </if>
+            <if test="age != null">
+                and age = #{age}
+            </if>
+            <if test="gender != null">
+                and gender = #{gender}
+            </if>
+            <if test="createTime != null">
+                and createTime = #{createTime}
+            </if>
+            <if test="updateTime != null">
+                and updateTime = #{updateTime}
+            </if>
+        </where>
+    </select>
+
+</mapper>
