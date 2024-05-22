@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d70e00ac-9bdf-4b33-bb44-4f2fbb850ee3" name="Changes" comment="temporary finish the project.">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketSaleSystem/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketSaleSystem/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketSaleSystem/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketSaleSystem/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketSaleSystem/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketSaleSystem/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketSaleSystem/src/main/java/com/zane/marketSaleSystem/MarketSaleSystemApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketSaleSystem/src/main/java/com/zane/marketSaleSystem/config/CrossConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketSaleSystem/src/main/java/com/zane/marketSaleSystem/config/InterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketSaleSystem/src/main/java/com/zane/marketSaleSystem/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketSaleSystem/src/main/java/com/zane/marketSaleSystem/controller/SupermarketSaleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketSaleSystem/src/main/java/com/zane/marketSaleSystem/controller/UserSupermarketSaleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketSaleSystem/src/main/java/com/zane/marketSaleSystem/controller/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketSaleSystem/src/main/java/com/zane/marketSaleSystem/mapper/SupermarketSaleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketSaleSystem/src/main/java/com/zane/marketSaleSystem/mapper/UserSupermarketSaleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketSaleSystem/src/main/java/com/zane/marketSaleSystem/service/SupermarketSaleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketSaleSystem/src/main/java/com/zane/marketSaleSystem/service/UserSupermarketSaleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketSaleSystem/src/main/java/com/zane/marketSaleSystem/service/impl/SupermarketSaleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketSaleSystem/src/main/java/com/zane/marketSaleSystem/service/impl/UserSupermarketSaleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketSaleSystem/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketSaleSystem/src/main/resources/com/zane/marketSaleSystem/mapper/SupermarketSaleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketSaleSystem/src/main/resources/com/zane/marketSaleSystem/mapper/UserSupermarketSaleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketSaleSystem/src/test/java/com/zane/marketSaleSystem/MarketSaleSystemApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webManagement/src/main/java/com/zanewnch/webmanagement/config/src/main/java/org/zanewnch/AspectConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webManagement/src/main/java/com/zanewnch/webmanagement/config/src/main/java/org/zanewnch/CrossConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webManagement/src/main/java/com/zanewnch/webmanagement/config/src/main/java/org/zanewnch/InterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webManagement/src/main/java/com/zanewnch/webmanagement/config/src/main/java/org/zanewnch/TestComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4715b9c5-e8a0-43ab-9d6d-472ddfab2b69.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4715b9c5-e8a0-43ab-9d6d-472ddfab2b69.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a7c1e70b-4ab5-435a-9e2d-0ba4b6b9f259.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a7c1e70b-4ab5-435a-9e2d-0ba4b6b9f259.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webManagement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webManagement/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webManagement/src/main/java/com/zanewnch/webmanagement/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/webManagement/src/main/java/com/zanewnch/webmanagement/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Composition API Component" />
+        <option value="Python Script" />
+        <option value="Interface" />
+        <option value="Vue Options API Component" />
+        <option value="TypeScript File" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2UayfY20z6CrDwhGymggnPxO3K5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-20&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/zane/Documents/Code/Java/structuredWeb/marketSaleSystem/src/main/java/com/zane/marketsalesystem&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/zane/Documents/Code/Java/employee-user-api&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;27467022fbd56b3224afa8197fb1484a&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/zane/Documents/Code/Java/structuredWeb/frontEndClass/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;redis&quot;
+    ],
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;,
+      &quot;Vue Options API Component&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webManagement/src/main/java/com/zanewnch/webmanagement" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/marketSaleSystem/src/main/resources/com/zane/marketSaleSystem/mapper" />
+      <recent name="$PROJECT_DIR$/frontendDesigned/src/components/Home" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.zanewnch.webmanagement.mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.zanewnch" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MarketSaleSystemApplication">
+    <configuration name="MarketSaleSystemApplicationTests.controllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="marketSaleSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zane.marketSaleSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zane.marketSaleSystem" />
+      <option name="MAIN_CLASS_NAME" value="com.zane.marketSaleSystem.MarketSaleSystemApplicationTests" />
+      <option name="METHOD_NAME" value="controllerTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarketSaleSystemApplicationTests.getAllValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="marketSaleSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zane.marketSaleSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zane.marketSaleSystem" />
+      <option name="MAIN_CLASS_NAME" value="com.zane.marketSaleSystem.MarketSaleSystemApplicationTests" />
+      <option name="METHOD_NAME" value="getAllValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarketSaleSystemApplicationTests.httpClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="marketSaleSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zane.marketSaleSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zane.marketSaleSystem" />
+      <option name="MAIN_CLASS_NAME" value="com.zane.marketSaleSystem.MarketSaleSystemApplicationTests" />
+      <option name="METHOD_NAME" value="httpClient" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarketSaleSystemApplicationTests.httpClientRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="marketSaleSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zane.marketSaleSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zane.marketSaleSystem" />
+      <option name="MAIN_CLASS_NAME" value="com.zane.marketSaleSystem.MarketSaleSystemApplicationTests" />
+      <option name="METHOD_NAME" value="httpClientRequest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarketSaleSystemApplicationTests.redisTemplateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="marketSaleSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zane.marketSaleSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zane.marketSaleSystem" />
+      <option name="MAIN_CLASS_NAME" value="com.zane.marketSaleSystem.MarketSaleSystemApplicationTests" />
+      <option name="METHOD_NAME" value="redisTemplateTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:5173">
+      <method v="2" />
+    </configuration>
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="structuredWeb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.pyenv/versions/myenv/bin/python" />
+      <option name="SDK_NAME" value="Python 3.12 (myenv)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Django" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Django/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testFile" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="structuredWeb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.pyenv/versions/myenv/bin/python" />
+      <option name="SDK_NAME" value="Python 3.12 (myenv)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Django/user" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Django/user/testFile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MarketSaleSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="marketSaleSystem" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zane.marketSaleSystem.MarketSaleSystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="webManagement" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zanewnch.webmanagement.WebManagementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MarketSaleSystemApplicationTests.httpClientRequest" />
+        <item itemvalue="JUnit.MarketSaleSystemApplicationTests.httpClient" />
+        <item itemvalue="JUnit.MarketSaleSystemApplicationTests.getAllValue" />
+        <item itemvalue="JUnit.MarketSaleSystemApplicationTests.redisTemplateTest" />
+        <item itemvalue="JUnit.MarketSaleSystemApplicationTests.controllerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d70e00ac-9bdf-4b33-bb44-4f2fbb850ee3" name="Changes" comment="" />
+      <created>1693192089737</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693192089737</updated>
+      <workItem from="1693192090942" duration="26343000" />
+      <workItem from="1693289710967" duration="8442000" />
+      <workItem from="1693298551927" duration="9913000" />
+      <workItem from="1693466419567" duration="44567000" />
+      <workItem from="1693821847579" duration="2335000" />
+      <workItem from="1693824193332" duration="1037000" />
+      <workItem from="1693825236852" duration="160000" />
+      <workItem from="1693825401705" duration="52909000" />
+      <workItem from="1694444298829" duration="2708000" />
+      <workItem from="1694448860702" duration="71389000" />
+      <workItem from="1695526457290" duration="84935000" />
+      <workItem from="1697745057883" duration="1104000" />
+      <workItem from="1702372346483" duration="678000" />
+      <workItem from="1702373033277" duration="5214000" />
+      <workItem from="1702449927396" duration="115000" />
+      <workItem from="1702450056602" duration="16313000" />
+      <workItem from="1702800220789" duration="1283000" />
+      <workItem from="1702801512171" duration="33000" />
+      <workItem from="1702801582433" duration="18562000" />
+      <workItem from="1702869485054" duration="30508000" />
+      <workItem from="1703227088727" duration="5213000" />
+      <workItem from="1703256531731" duration="310000" />
+      <workItem from="1703256915843" duration="211000" />
+      <workItem from="1703257132487" duration="33000" />
+      <workItem from="1703257193655" duration="464000" />
+      <workItem from="1703257664805" duration="2242000" />
+      <workItem from="1703260039023" duration="14490000" />
+      <workItem from="1703830790820" duration="413000" />
+      <workItem from="1703831223854" duration="23773000" />
+      <workItem from="1703931419937" duration="21928000" />
+      <workItem from="1704161005506" duration="10735000" />
+      <workItem from="1704356338243" duration="45000" />
+      <workItem from="1716318475965" duration="367000" />
+      <workItem from="1716333373975" duration="837000" />
+      <workItem from="1716334701114" duration="683000" />
+    </task>
+    <task id="LOCAL-00001" summary="Unfinished: sql console, aop, interceptor.">
+      <option name="closed" value="true" />
+      <created>1693227088950</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693227088950</updated>
+    </task>
+    <task id="LOCAL-00002" summary="finish the part of detail of HomeView, the next step is finish the part of card of detail.">
+      <option name="closed" value="true" />
+      <created>1694360475186</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694360475186</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Finish the sub-router, the next part is pagination fetch.">
+      <option name="closed" value="true" />
+      <created>1694703181137</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694703181137</updated>
+    </task>
+    <task id="LOCAL-00004" summary="finish the employee page.">
+      <option name="closed" value="true" />
+      <created>1695783397440</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695783397440</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Finish sign in and sign up.">
+      <option name="closed" value="true" />
+      <created>1695899576664</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695899576664</updated>
+    </task>
+    <task id="LOCAL-00006" summary="temporary finish the project.">
+      <option name="closed" value="true" />
+      <created>1697744275370</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697744275370</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="14703b20-e2ae-4cd5-ab1d-6ef90ba2d8c1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="14703b20-e2ae-4cd5-ab1d-6ef90ba2d8c1">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Finish the controller and service." />
+    <MESSAGE value="Unfinished: sql console, aop, interceptor." />
+    <MESSAGE value="finish the part of detail of HomeView, the next step is finish the part of card of detail." />
+    <MESSAGE value="Finish the sub-router, the next part is pagination fetch." />
+    <MESSAGE value="finish the employee page." />
+    <MESSAGE value="Finish sign in and sign up." />
+    <MESSAGE value="temporary finish the project." />
+    <option name="LAST_COMMIT_MESSAGE" value="temporary finish the project." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/webManagement/src/test/java/com/zanewnch/webmanagement/WebManagementApplicationTests.java</url>
+          <line>86</line>
+          <properties class="com.zanewnch.webmanagement.WebManagementApplicationTests" method="generateRandomDataForProject">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/webManagement/src/main/java/com/zanewnch/webmanagement/controller/UserController.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

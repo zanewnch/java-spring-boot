@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zanewnch.fullproject.mapper.UploadMapper">
+
+    <select id="upload">
+        還沒有具體的寫法
+    </select>
+
+</mapper>

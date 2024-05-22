@@ -1,0 +1,9 @@
+
+r	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒåÚÅùÿÿÿÿ8ãù˜í»1
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(É§‡äøÿÿÿÿ8ãù˜í»1
+^
+java:S1854K"<Remove this useless assignment to local variable "password".(ìüÿÿÿÿÿ8øù˜í»1
+]	java:S1256"<This block of commented-out lines of code should be removed.(”é öúÿÿÿÿ8úù˜í»1
+O
+java:S1481K"-Remove this unused "password" local variable.(ìüÿÿÿÿÿ8ûù˜í»1
+X	java:S125Y"<This block of commented-out lines of code should be removed.(»Ô²ş8şù˜í»1

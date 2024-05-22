@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zanewnch.fullproject.mapper.DeptMapper">
+
+    <sql id="commonUse">
+        select id,
+               username,
+               password,
+               name,
+               gender,
+               image,
+               job,
+               entrydate,
+               deptId,
+               createTime,
+               updateTime
+        from dept
+    </sql>
+
+    <select id="list" resultType="com.zanewnch.fullproject.model.Dept">
+        <!--        <include refid="commonUse"/>-->
+        <!--        <where>-->
+        <!--            <if test="">-->
+
+        <!--            </if>-->
+
+        <!--        </where>-->
+
+        select * from dept;
+    </select>
+
+    <select id="getAllDept" resultType="com.zanewnch.fullproject.model.Dept">
+        select *
+        from dept;
+    </select>
+
+    <delete id="deleteById">
+        delete
+        from dept
+        where id = #{id};
+    </delete>
+
+    <update id="add">
+        -- because the id column is auto_increment, so we do not need to insert it.
+        insert into dept (name, createTime, updateTime)
+        values (#{name}, #{createTime}, #{updateTime});
+    </update>
+
+    <select id="selectDept" resultType="com.zanewnch.fullproject.model.Dept">
+        select *
+        from dept
+    </select>
+
+    <select id="selectEmp" resultType="com.zanewnch.fullproject.model.Emp">
+        select *
+        from emp
+    </select>
+
+
+</mapper>

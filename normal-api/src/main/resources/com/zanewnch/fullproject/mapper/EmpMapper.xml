@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zanewnch.fullproject.mapper.EmpMapper">
+
+    <sql id="commonUse">
+        select id,
+               username,
+               password,
+               name,
+               gender,
+               image,
+               job,
+               entrydate,
+               deptId,
+               createTime,
+               updateTime
+    </sql>
+
+    <select id="selectAllEmp" resultType="com.zanewnch.fullproject.model.Emp">
+<!--        <include refid="commonUse"/>-->
+<!--        <where>-->
+<!--            <if test=""></if>-->
+
+<!--        </where>-->
+        select * from emp;
+    </select>
+
+
+
+<!--    select element's resultType can 對應到mapper 當中該method 的 return data type-->
+    <select id="selectCountEmp" resultType="long">
+        select count(*) from emp;
+    </select>
+
+    <select id="selectByPageEmp" resultType="com.zanewnch.fullproject.model.Emp">
+        select * from emp limit #{start}, #{pageSize};
+    </select>
+
+
+    <select id="selectByPageHelper" resultType="com.zanewnch.fullproject.model.Emp">
+        select * from emp
+        <where>
+            name like concat('%','張','%')
+            and
+            gender = 1
+            and
+            entryDate between '2000-01-01' and '2010-01-01'
+        </where>
+                 order by updateTime desc;
+    </select>
+
+    <select id="selectByCompletedPageHelper" resultType="com.zanewnch.fullproject.model.Emp">
+        select * from emp
+        <where>
+            <if test="name != null and name != '">
+                name like concat('%',#{name},'%')
+            </if>
+        <if test="gender != null">
+            and gender = #{gender}
+        </if>
+        <if test="begin != null and end != null">
+            and entryDate between #{begin} and #{end}
+        </if>
+        </where>
+        order by updateTime desc
+    </select>
+
+    <delete id="deleteByIdEmp">
+        delete from emp
+        <where>
+            id in <foreach collection="ids" item="id" open="(" separator="," close=")">#{id}</foreach>
+        </where>
+    </delete>
+
+    <insert id="insertEmp" parameterType="com.zanewnch.fullproject.model.Emp">
+        insert into emp(name,gender,image,job, entryDate, deptId, createTime, updateTime) values (#{name},#{gender},#{image}),#{job},#{entryDate},#{deptId},#{createTime},#{updateTime})
+    </insert>
+
+    <select id="selectLoginEmp" resultType="com.zanewnch.fullproject.model.Emp">
+    select * from emp where username = #{username} and password = #{password}
+    </select>
+
+
+</mapper>
+
+
+
+
+

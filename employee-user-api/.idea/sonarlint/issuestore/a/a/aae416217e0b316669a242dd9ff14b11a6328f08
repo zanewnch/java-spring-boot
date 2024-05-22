@@ -1,0 +1,7 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”†¤Çùÿÿÿÿ8íÀë¼Ç1
+q
+java:S3252 "OUse static access with "com.github.pagehelper.page.PageMethod" for "startPage".(çø¤ÿÿÿÿÿ8¶ß²×Ç1
+W	java:S125!"<This block of commented-out lines of code should be removed.(º¡88·ß²×Ç1
+^
+java:S1128"BRemove this unused import 'com.github.pagehelper.page.PageMethod'.(èšÍ|8ºß²×Ç1

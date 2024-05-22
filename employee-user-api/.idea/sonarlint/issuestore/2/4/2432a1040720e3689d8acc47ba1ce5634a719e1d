@@ -1,0 +1,11 @@
+
+IWeb:AvoidCommentedOutCodeCheckz"Remove this commented out code.(‰úƒ
+NWeb:AvoidCommentedOutCodeCheck{"Remove this commented out code.(úÃÅÊûÿÿÿÿ
+Ntypescript:S1128"+Remove this unused import of 'reqHospital'.(£Ğ€®8¤»¶Ç1
+Qtypescript:S1128	".Remove this unused import of 'HospitalDetail'.(ÎîÔ»8¤»¶Ç1
+Rtypescript:S1128	"/Remove this unused import of 'HospitalResData'.(ÎîÔ»8¥»¶Ç1
+Jtypescript:S1128
+"'Remove this unused import of 'request'.(ëßÊÁ8¥»¶Ç1
+@typescript:S125$"Remove this commented out code.(¦§ò8¥»¶Ç1
+Ftypescript:S125+"Remove this commented out code.(¢‰ì€şÿÿÿÿ8¥»¶Ç1
+Ftypescript:S1256"Remove this commented out code.(¯µóñúÿÿÿÿ8¦»¶Ç1

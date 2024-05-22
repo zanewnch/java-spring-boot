@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/marketSaleSystem/src/main/java/com/zane/marketSaleSystem/mapper/SupermarketSaleMapper.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/marketSaleSystem/src/main/java/com/zane/marketSaleSystem/mapper/UserSupermarketSaleMapper.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/marketSaleSystem/src/main/resources/com/zane/marketSaleSystem/mapper/SupermarketSaleMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/marketSaleSystem/src/main/resources/com/zane/marketSaleSystem/mapper/UserSupermarketSaleMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/webManagement/src/main/resources/com/zanewnch/webmanagement/mapper/EmployeeMapper.xml" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/webManagement/src/main/resources/com/zanewnch/webmanagement/mapper/UserMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/webManagement/src/main/resources/com/zanewnch/webmanagement/mapper/UserMapperTest.xml" dialect="GenericSQL" />
+  </component>
+</project>

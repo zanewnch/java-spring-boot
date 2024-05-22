@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7ff3703f-eb5a-4d53-8fa4-136017398408" name="Changes" comment="Keep file available.">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/zane/server/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/zane/server/config/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/zane/server/task/SimpleExampleTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/zane/server/task/WebSocketTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/zane/server/webSocket/WebSocketServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/static/EChartsDemo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/static/WebSocket.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/static/echarts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/345ae1f8-2beb-49f0-aa81-1209bafc215e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/345ae1f8-2beb-49f0-aa81-1209bafc215e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/__tests__/HelloWorld.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/icons/IconCommunity.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/icons/IconDocumentation.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/icons/IconEcosystem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/icons/IconSupport.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/icons/IconTooling.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/router/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/views/HomeView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/views/SignUpView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.node.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.vitest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/vite.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/vitest.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/originalFiles/server" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server" beforeDir="false" afterPath="$PROJECT_DIR$/server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/org/zane/server/ServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/org/zane/server/ServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/org/zane/server/config/AspectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/org/zane/server/config/AspectConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/org/zane/server/config/WebMvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/org/zane/server/config/WebMvcConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/org/zane/server/controller/employeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/org/zane/server/controller/employeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/org/zane/server/mapper/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/org/zane/server/mapper/EmployeeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/org/zane/server/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/org/zane/server/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/org/zane/server/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/org/zane/server/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/test/java/org/zane/server/ServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/test/java/org/zane/server/ServerApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Vue Composition API Component" />
+        <option value="AnnotationType" />
+        <option value="Enum" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2Wztb4nP4swlsiXJF4KuFssR5jT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-20&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/zane/Documents/Code/Java/advancedWeb/server/src/main/java/org/zane/server&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/zane/Documents/Code/Java/employee-api&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;d4771c2410068da3b75c7c7572ce16da&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/zane/Documents/Code/Java/advancedWeb/frontend/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ],
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/src/main/resources/org/zane/server/mapper" />
+      <recent name="$PROJECT_DIR$/server/src/main/resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.zane.sort" />
+      <recent name="org.zane.binarySearch" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ServerApplication">
+    <configuration name="ServerApplicationTests.deleteSqlData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.zane.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.zane.server" />
+      <option name="MAIN_CLASS_NAME" value="org.zane.server.ServerApplicationTests" />
+      <option name="METHOD_NAME" value="deleteSqlData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerApplicationTests.dsfklds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.zane.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.zane.server" />
+      <option name="MAIN_CLASS_NAME" value="org.zane.server.ServerApplicationTests" />
+      <option name="METHOD_NAME" value="dsfklds" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerApplicationTests.redisDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.zane.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.zane.server" />
+      <option name="MAIN_CLASS_NAME" value="org.zane.server.ServerApplicationTests" />
+      <option name="METHOD_NAME" value="redisDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerApplicationTests.springCacheTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.zane.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.zane.server" />
+      <option name="MAIN_CLASS_NAME" value="org.zane.server.ServerApplicationTests" />
+      <option name="METHOD_NAME" value="springCacheTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EChartsDemo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/advancedWeb/server/src/main/resources/static/EChartsDemo.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.zane.server.ServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.EChartsDemo.html" />
+        <item itemvalue="JUnit.ServerApplicationTests.springCacheTest" />
+        <item itemvalue="JUnit.ServerApplicationTests.deleteSqlData" />
+        <item itemvalue="JUnit.ServerApplicationTests.redisDelete" />
+        <item itemvalue="JUnit.ServerApplicationTests.dsfklds" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ff3703f-eb5a-4d53-8fa4-136017398408" name="Changes" comment="" />
+      <created>1697747304709</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697747304709</updated>
+      <workItem from="1697747307120" duration="791000" />
+      <workItem from="1697748106769" duration="1020000" />
+      <workItem from="1697749133777" duration="13913000" />
+      <workItem from="1697883285709" duration="676000" />
+      <workItem from="1697884012927" duration="51000" />
+      <workItem from="1697884091386" duration="9210000" />
+      <workItem from="1697901064076" duration="762000" />
+      <workItem from="1697901836278" duration="16987000" />
+      <workItem from="1697959391421" duration="2091000" />
+      <workItem from="1697961490113" duration="55551000" />
+      <workItem from="1698928704300" duration="8838000" />
+      <workItem from="1698939655826" duration="62000" />
+      <workItem from="1698939736162" duration="3155000" />
+      <workItem from="1698949118256" duration="5025000" />
+      <workItem from="1698954511965" duration="3472000" />
+      <workItem from="1698996112340" duration="204000" />
+      <workItem from="1698996354753" duration="18000" />
+      <workItem from="1698996380922" duration="166000" />
+      <workItem from="1698996557945" duration="549000" />
+      <workItem from="1698997132541" duration="182000" />
+      <workItem from="1698997327475" duration="2575000" />
+      <workItem from="1699000972446" duration="3127000" />
+      <workItem from="1699004335166" duration="943000" />
+      <workItem from="1699005305084" duration="6631000" />
+      <workItem from="1699025445708" duration="105000" />
+      <workItem from="1699025570607" duration="26099000" />
+      <workItem from="1699579183379" duration="14611000" />
+      <workItem from="1699601637554" duration="4867000" />
+      <workItem from="1699615097671" duration="315000" />
+      <workItem from="1699615416410" duration="9290000" />
+      <workItem from="1699672574563" duration="5066000" />
+      <workItem from="1699681253493" duration="20755000" />
+      <workItem from="1699936440417" duration="252000" />
+      <workItem from="1699936718010" duration="2739000" />
+      <workItem from="1699946642168" duration="9574000" />
+      <workItem from="1716317010038" duration="805000" />
+      <workItem from="1716318858892" duration="1807000" />
+      <workItem from="1716334213498" duration="486000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-websocket" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.validation:jakarta.validation-api" />
+    <option featureType="dependencySupport" implementationName="java:io.projectreactor:reactor-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-messaging" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/server/src/main/java/org/zane/server/controller/employeeController.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/server/src/main/java/org/zane/server/controller/employeeController.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/server/src/main/java/org/zane/server/controller/employeeController.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/org/zane/binarySearch/BinarySearchTest.java</url>
+          <line>342</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/org/zane/binarySearch/BinarySearchTest.java</url>
+          <line>343</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/org/zane/sort/BubbleSort.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/org/zane/sort/BubbleSort.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/org/zane/sort/BubbleSort.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/org/zane/sort/InsertionSort.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/org/zane/sort/InsertionSort.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/org/zane/sort/InsertionSort.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/org/zane/sort/InsertionSort.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/org/zane/sort/InsertionSort.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/org/zane/sort/InsertionSort.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/org/zane/sort/InsertionSort.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/org/zane/sort/InsertionSort.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/org/zane/sort/BubbleSort.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.apache.ibatis.binding.BindingException" package="org.apache.ibatis.binding" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
