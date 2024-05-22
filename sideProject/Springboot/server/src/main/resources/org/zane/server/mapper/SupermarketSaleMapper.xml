@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.zane.server.mapper.SupermarketSaleMapper">
+    <select id="selectEmployee" resultType="org.zane.entity.SupermarketSale">
+        select * from supermarket
+        <where>
+            <if test="branch != null">
+                name = #{branch}
+            </if>
+
+            <if test="city != null">
+                 city = #{city}
+            </if>
+        <if test="customerType != null">
+            state = #{customerType}
+        </if>
+        <if test="gender != null">
+            gender = #{gender}
+        </if>
+        <if test="productLine != null">
+            product_line = #{productLine}
+        </if>
+        <if test="unitPrice != null">
+            unit_price = #{unitPrice}
+        </if>
+        <if test="quantity != null">
+            quantity = #{unitCost}
+        </if>
+        <if test="tax5Percent != null">
+            tax_5_percent = #{tax5Percent}
+        </if>
+        <if test="total != null">
+            total = #{total}
+        </if>
+        <if test="date != null">
+            date = #{date}
+        </if>
+        <if test="time != null">
+            time = #{time}
+        </if>
+        <if test="payment != null">
+            payment = #{payment}
+        </if>
+        <if test="cogs != null">
+            cogs = #{cogs}
+        </if>
+        <if test="grossMarginPercentage != null">
+            gross_margin_percentage = #{grossMarginPercentage}
+        </if>
+        <if test="grossIncome != null">
+            gross_income = #{grossIncome}
+        </if>
+        <if test="rating != null">
+            rating = #{rating}
+        </if>
+        </where>
+
+    </select>
+</mapper>
