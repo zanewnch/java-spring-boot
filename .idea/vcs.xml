@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/employee-api/server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/employee-user-api/marketSaleSystem" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/employee-user-api/webManagement" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sideProject/Springboot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sideProject/Springboot/server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sideProject/mainBackend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sideProject/mainBackend/server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/unorginizedFiles/practice" vcs="Git" />
+  </component>
+</project>
