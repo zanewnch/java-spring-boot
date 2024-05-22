@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/fullProject/src/main/resources/com/zanewnch/fullproject/mapper/DeptMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/fullProject/src/main/resources/com/zanewnch/fullproject/mapper/EmpMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/fullProject/src/main/resources/com/zanewnch/fullproject/mapper/createTable.sql" dialect="MySQL" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/980c2247-e783-40fa-b687-e59999cc97b5/CreateLogTable.sql" dialect="MySQL" />
+  </component>
+</project>

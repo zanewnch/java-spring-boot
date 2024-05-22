@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zanewnch.mybatismaven.mapper.EmpMapper">
+
+    <sql id="CommonUse">
+        select id, username, password, name, gender, image, job, entrydate, dept_id, create_time, update_time
+    </sql>
+
+<!--    id 是在java/mapper/EmpMapper 裡面要mount的methodName-->
+<!--    resultType 是 return 的資料當中  單條資料的datatype-->
+<!--    意思是： this method reutnr List<Emp>, and the data type of single data is Emp-->
+    <select id="XMLSelectEmp" resultType="com.zanewnch.mybatismaven.model.Emp">
+        <include refid="CommonUse"/>
+        <where>
+            <if test="name != null">
+                name like concat('%', #{name}, '%')
+            </if>
+
+            <if test="gender != null">
+                and gender = #{gender}
+            </if>
+
+            <if test="begin != null and end != null">
+                and entrydate between #{begin} and #{end}
+            </if>
+        </where>
+        order by update_time desc
+
+    </select>
+
+    <update id="XMLUpdateEmp">
+-- set
+update emp
+        <set>
+            username    = #{username},
+            name        = #{name},
+            gender      = #{gender},
+            dept_id     = #{deptId},
+            update_Time = #{updateTime}
+        </set>
+
+        <where>
+            id = #{id}
+        </where>
+
+    </update>
+
+<!--    foreach method :-->
+<!--    collection: 遍歷的set (set透過invoke的時候傳進來)-->
+<!--    item: 遍歷的element name-->
+<!--    separator: 分隔符-->
+<!--    open: loop 開始前拼接的string-->
+<!--    end: loop 結束後拼接的string-->
+<!--for example: ids is [18,19,20]-->
+<!--    result is: (18,19,20)-->
+    <delete id="XMLForEachEmp">
+        delete from emp where id in
+        <foreach collection="ids" item="id" open="(" close=")" separator=",">
+            #{id}
+    </delete>
+
+</mapper>
