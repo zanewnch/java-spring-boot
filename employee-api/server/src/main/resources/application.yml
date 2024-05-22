@@ -1,0 +1,92 @@
+server:
+  port: 8080
+
+
+# configuration of connecting to the database(sql)
+spring:
+  datasource:
+    # driver name
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # url of the database
+    url: jdbc:mysql://localhost:3306/advancedWeb
+    # username and password
+    username: root
+    password: polaroid628
+  servlet:
+    multipart:
+      # setting of size limit of single file uploaded
+      max-file-size: 10MB
+      # setting of size limit of single file requested
+      max-request-size: 100MB
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      database: 0 # default 會有16個database, 現在使用第0個
+#    password
+  cache:
+    type: redis
+
+# configuration log of mybatis, specify the path of the log to console
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    # change the name of the column in database from a_column to aColumn(camel case)
+    # result: a_column -> aColumn
+    map-underscore-to-camel-case: true
+
+
+# example of using @Value annotation, which purpose is to get value from configuration file
+# @Value("${valueExample.Integer}")
+# invoke this value on EmpController
+valueExample:
+  Integer: 10
+
+# @ConfigurationProperties 用途跟 @Value一樣 只是更簡潔
+# aliyun.oss.endpoint
+# @ConfigurationProperties(prefix = "aliyun") at class
+
+# 開啟transaction 事務管理日誌開關
+logging:
+  level:
+    org.springframework.jdbc.support.jdbcTransactionManager: debug
+
+
+sky:
+  jwt:
+    # 設置jwt簽名加密的密鑰
+    adminSecretKey: zanewnch
+    # 设置jwt過期時間
+    adminTtl: 7200000
+    # 设置前端傳遞過來的令牌名稱
+    adminTokenName: token
+
+
+# knife4j swagger配置
+# springdoc-openapi项目配置
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    tags-sorter: alpha
+    operations-sorter: alpha
+  api-docs:
+    path: /v3/api-docs
+  group-configs:
+    - group: 'default'
+      paths-to-match: '/**'
+      packages-to-scan: com.xiaominfo.knife4j.demo.web
+
+
+# mybatis-plus配置
+#mybatis-plus:
+#  type-aliases-package: org.zane.entity # 指定实体类的包路径
+#  mapper-locations: classpath*:/mapper/**/*.xml # 指定mapper.xml的路径
+#  configuration:
+#    map-underscore-to-camel-case: true # 开启驼峰命名转换  就是把駝峰命名轉換成下划線命名
+#    cache-enabled: false # 关闭二级缓存
+#  global-config:
+#    db-config:
+#      id-type: assign_id # 主键策略 id為雪花算法生成,
+      # 在這邊寫的是global configuration, 意思就是當entity 沒有特別寫annotation 的時候才會啟用此configuration
+
+#      update-strategy: not_null # 更新策略 非空字段更新
