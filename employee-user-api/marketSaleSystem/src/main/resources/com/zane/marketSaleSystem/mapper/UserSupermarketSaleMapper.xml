@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zane.marketSaleSystem.mapper.UserSupermarketSaleMapper">
+
+
+    <!-- Select query -->
+    <select id="get" resultType="org.zanewnch.entity.UserSupermarketSale">
+        SELECT * FROM user
+        <where>
+            <if test="username != null">
+                username = #{username}
+            </if>
+            <if test="password != null">
+                password = #{password}
+            </if>
+            <if test="registerDate != null">
+                register_date = #{registerDate}
+            </if>
+            <if test="lastLoginDate != null">
+                last_login_date = #{lastLoginDate}
+            </if>
+            <if test="userStatus != null">
+                user_status = #{userStatus}
+            </if>
+        </where>
+    </select>
+
+    <select id="getByUsername" resultType="org.zanewnch.entity.UserSupermarketSale">
+        SELECT * FROM user
+        <where>
+            <if test="username != null">
+                username = #{username}
+            </if>
+        </where>
+    </select>
+
+    <!-- Insert query -->
+    <insert id="create">
+        INSERT INTO user (username, password, registration_date, last_login_date, user_status)
+        VALUES (#{username}, #{password}, #{registrationDate}, #{lastLoginDate}, #{userStatus})
+    </insert>
+
+    <!-- Update query -->
+    <update id="update" parameterType="org.zanewnch.entity.UserSupermarketSale">
+        UPDATE user
+        <set>
+            <if test="password != null">
+                password = #{password},
+            </if>
+            <if test="registerDate != null">
+                register_date = #{registerDate},
+            </if>
+            <if test="lastLoginDate != null">
+                last_login_date = #{lastLoginDate},
+            </if>
+            <if test="userStatus != null">
+                user_status = #{userStatus}
+            </if>
+        </set>
+        <where>
+            username = #{username}
+        </where>
+    </update>
+
+    <!-- Delete query -->
+    <delete id="delete">
+        DELETE FROM user
+        <where>
+            <if test="username != null">
+                username = #{username}
+            </if>
+        </where>
+    </delete>
+
+
+</mapper>

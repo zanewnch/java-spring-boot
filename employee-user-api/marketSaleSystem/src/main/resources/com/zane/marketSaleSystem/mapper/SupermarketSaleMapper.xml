@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zane.marketSaleSystem.mapper.SupermarketSaleMapper">
+    <select id="get" resultType="org.zanewnch.entity.SupermarketSale">
+        select * from supermarket
+        <where>
+            <if test="branch != null">
+                name = #{branch}
+            </if>
+
+            <if test="city != null">
+                city = #{city}
+            </if>
+            <if test="customerType != null">
+                state = #{customerType}
+            </if>
+            <if test="gender != null">
+                gender = #{gender}
+            </if>
+            <if test="productLine != null">
+                product_line = #{productLine}
+            </if>
+            <if test="unitPrice != null">
+                unit_price = #{unitPrice}
+            </if>
+            <if test="quantity != null">
+                quantity = #{unitCost}
+            </if>
+            <if test="tax5Percent != null">
+                tax_5_percent = #{tax5Percent}
+            </if>
+            <if test="total != null">
+                total = #{total}
+            </if>
+            <if test="date != null">
+                date = #{date}
+            </if>
+            <if test="time != null">
+                time = #{time}
+            </if>
+            <if test="payment != null">
+                payment = #{payment}
+            </if>
+            <if test="cogs != null">
+                cogs = #{cogs}
+            </if>
+            <if test="grossMarginPercentage != null">
+                gross_margin_percentage = #{grossMarginPercentage}
+            </if>
+            <if test="grossIncome != null">
+                gross_income = #{grossIncome}
+            </if>
+            <if test="rating != null">
+                rating = #{rating}
+            </if>
+        </where>
+
+    </select>
+
+    <insert id="create">
+        INSERT INTO supermarket (branch,
+                                 city,
+                                 customer_type,
+                                 gender,
+                                 product_line,
+                                 unit_price,
+                                 quantity,
+                                 tax_5_percent,
+                                 total,
+                                 date,
+                                 time,
+                                 payment,
+                                 cogs,
+                                 gross_margin_percentage,
+                                 gross_income,
+                                 rating)
+        VALUES (#{branch},
+                #{city},
+                #{customerType},
+                #{gender},
+                #{productLine},
+                #{unitPrice},
+                #{quantity},
+                #{tax5Percent},
+                #{total},
+                #{date},
+                #{time},
+                #{payment},
+                #{cogs},
+                #{grossMarginPercentage},
+                #{grossIncome},
+                #{rating})
+    </insert>
+
+    <update id="update" parameterType="org.zanewnch.entity.SupermarketSale">
+        UPDATE supermarket
+        <set>
+            <if test="branch != null">
+                branch = #{branch},
+            </if>
+            <if test="city != null">
+                city = #{city},
+            </if>
+            <if test="customerType != null">
+                customer_type = #{customerType},
+            </if>
+            <if test="gender != null">
+                gender = #{gender},
+            </if>
+            <if test="productLine != null">
+                product_line = #{productLine},
+            </if>
+            <if test="unitPrice != null">
+                unit_price = #{unitPrice},
+            </if>
+            <if test="quantity != null">
+                quantity = #{quantity},
+            </if>
+            <if test="tax5Percent != null">
+                tax_5_percent = #{tax5Percent},
+            </if>
+            <if test="total != null">
+                total = #{total},
+            </if>
+            <if test="date != null">
+                date = #{date},
+            </if>
+            <if test="time != null">
+                time = #{time},
+            </if>
+            <if test="payment != null">
+                payment = #{payment},
+            </if>
+            <if test="cogs != null">
+                cogs = #{cogs},
+            </if>
+            <if test="grossMarginPercentage != null">
+                gross_margin_percentage = #{grossMarginPercentage},
+            </if>
+            <if test="grossIncome != null">
+                gross_income = #{grossIncome},
+            </if>
+            <if test="rating != null">
+                rating = #{rating}
+            </if>
+        </set>
+        <where>
+            id = #{id}
+        </where>
+    </update>
+
+    <delete id="delete">
+        DELETE FROM supermarket
+        <where>
+
+            <if test="id != null">
+                id = #{id}
+            </if>
+<!--            <if test="branch != null">-->
+<!--                and branch = #{branch}-->
+<!--            </if>-->
+<!--            <if test="city != null">-->
+<!--                AND city = #{city}-->
+<!--            </if>-->
+<!--            <if test="customerType != null">-->
+<!--                AND customer_type = #{customerType}-->
+<!--            </if>-->
+<!--            <if test="gender != null">-->
+<!--                AND gender = #{gender}-->
+<!--            </if>-->
+<!--            <if test="productLine != null">-->
+<!--                AND product_line = #{productLine}-->
+<!--            </if>-->
+<!--            <if test="unitPrice != null">-->
+<!--                AND unit_price = #{unitPrice}-->
+<!--            </if>-->
+<!--            <if test="quantity != null">-->
+<!--                AND quantity = #{quantity}-->
+<!--            </if>-->
+<!--            <if test="tax5Percent != null">-->
+<!--                AND tax_5_percent = #{tax5Percent}-->
+<!--            </if>-->
+<!--            <if test="total != null">-->
+<!--                AND total = #{total}-->
+<!--            </if>-->
+<!--            <if test="date != null">-->
+<!--                AND date = #{date}-->
+<!--            </if>-->
+<!--            <if test="time != null">-->
+<!--                AND time = #{time}-->
+<!--            </if>-->
+<!--            <if test="payment != null">-->
+<!--                AND payment = #{payment}-->
+<!--            </if>-->
+<!--            <if test="cogs != null">-->
+<!--                AND cogs = #{cogs}-->
+<!--            </if>-->
+<!--            <if test="grossMarginPercentage != null">-->
+<!--                AND gross_margin_percentage = #{grossMarginPercentage}-->
+<!--            </if>-->
+<!--            <if test="grossIncome != null">-->
+<!--                AND gross_income = #{grossIncome}-->
+<!--            </if>-->
+<!--            <if test="rating != null">-->
+<!--                AND rating = #{rating}-->
+<!--            </if>-->
+        </where>
+    </delete>
+
+
+
+</mapper>

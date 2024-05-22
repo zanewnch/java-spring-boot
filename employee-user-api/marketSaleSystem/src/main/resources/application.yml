@@ -1,0 +1,47 @@
+server:
+  port: 8080
+
+# configuration of connecting to the database(sql)
+spring:
+  datasource:
+    # driver name
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # url of the database
+    url: jdbc:mysql://localhost:3306/sideProject
+    # username and password
+    username: root
+    password: polaroid628
+  servlet:
+    multipart:
+      # setting of size limit of single file uploaded
+      max-file-size: 10MB
+      # setting of size limit of single file requested
+      max-request-size: 100MB
+  redis:
+    host:localhost
+    port:6379
+    database:0
+
+# configuration log of mybatis, specify the path of the log to console
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    # change the name of the column in database from a_column to aColumn(camel case)
+    # result: a_column -> aColumn
+    map-underscore-to-camel-case: true
+
+
+# example of using @Value annotation, which purpose is to get value from configuration file
+# @Value("${valueExample.Integer}")
+# invoke this value on EmpController
+valueExample:
+  Integer: 10;
+
+# @ConfigurationProperties 用途跟 @Value一樣 只是更簡潔
+# aliyun.oss.endpoint
+# @ConfigurationProperties(prefix = "aliyun") at class
+
+# 開啟transaction 事務管理日誌開關
+logging:
+  level:
+    org.springframework.jdbc.support.jdbcTransactionManager: debug
